@@ -7,5 +7,6 @@ public class KursFakta {
         // hur många veckor den är,
         // hur många inlämningar det finns, och när inlämning 1 ska in.
         System.out.println("Kurs: Programmering med Java, grund");
+        System.out.println("Längd: 8 veckor");
     }
 }
