@@ -6,6 +6,7 @@ public class HalsningNamn {
         // en hälsning, ditt namn, och dagens datum
         // (skriv datumet rakt in texten — vi använder inte riktiga datumtyper än).
         System.out.println("Hej allihopa!");
+        System.out.println("Jag heter Carmelo");
 
     }
 }
