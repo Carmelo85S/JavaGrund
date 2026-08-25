@@ -5,6 +5,7 @@ public class Adressetikett {
         //Skriv ett program som skriver ut en adressetikett på fyra rader:
         // namn, gatuadress, postnummer och ort, sam land.
         System.out.println("Carmelo");
+        System.out.println("Vanadisgatan 35");
 
     }
 }
