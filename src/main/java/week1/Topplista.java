@@ -6,7 +6,7 @@ public class Topplista {
         //(spel, mat, musik — du väljer).
         //Rubrik på första raden, sedan en rad per post.
         System.out.println("Mina favorite barn program: ");
-
+        System.out.println("1 - Bluey");
 
     }
 }
