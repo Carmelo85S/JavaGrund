@@ -6,6 +6,6 @@ public class TomRad {
         // Klura ut hur du får programmet att skriva ut en helt tom rad.
         System.out.println("Detta ar forsta stycket.");
         System.out.println();
-
+        System.out.println("Detta är andra stycket, efter en tom rad.");
     }
 }
