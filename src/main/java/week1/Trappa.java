@@ -5,5 +5,11 @@ public class Trappa {
         //Skriv ett program som skriver ut en trappa av stjärnor:
         // fem rader, där varje rad har en stjärna mer än raden ovanför.
         //(Du känner inte till loopar än — skriv ut varje rad för sig. Tålamod räknas.)
+        System.out.println("*");
+        System.out.println("**");
+        System.out.println("***");
+        System.out.println("****");
+        System.out.print("*****");
+
     }
 }
