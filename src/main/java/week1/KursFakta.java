@@ -9,5 +9,6 @@ public class KursFakta {
         System.out.println("Kurs: Programmering med Java, grund");
         System.out.println("Längd: 8 veckor");
         System.out.println("Antal inlämningar: 2");
+        System.out.println("Inlämning 1 deadline: söndag 25 september");
     }
 }
