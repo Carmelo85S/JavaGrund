@@ -8,6 +8,7 @@ public class Kvitto {
         System.out.println("KVITTO - Konsult AB");
         System.out.println("-------------------");
         System.out.println("Front end    2000kr");
+        System.out.println("Back end     6000kr");
 
     }
 }
