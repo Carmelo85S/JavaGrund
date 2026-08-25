@@ -5,5 +5,7 @@ public class HalsningNamn {
         //Skriv ett program som skriver ut tre rader:
         // en hälsning, ditt namn, och dagens datum
         // (skriv datumet rakt in texten — vi använder inte riktiga datumtyper än).
+        System.out.println("Hej allihopa!");
+
     }
 }
