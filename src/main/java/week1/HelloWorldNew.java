@@ -7,5 +7,6 @@ public class HelloWorldNew {
         //runt texten och se rak ut.
         System.out.println("+---------------+");
         System.out.println("|  Hello world  |");
+        System.out.println("+---------------+");
     }
 }
