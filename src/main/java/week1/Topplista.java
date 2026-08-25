@@ -8,6 +8,7 @@ public class Topplista {
         System.out.println("Mina favorite barn program: ");
         System.out.println("1 - Bluey");
         System.out.println("2 - Spidey och hans fantastiska vänner");
+        System.out.println("3 - Tom & Jerry");
     }
 
 }
