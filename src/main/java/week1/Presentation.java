@@ -7,5 +7,6 @@ public class Presentation {
         // och en kul fakt om dig.
         System.out.println("Namn: Carmelo");
         System.out.println("Stad: Stockholm");
+        System.out.println("Jag går utbildningen för att jag vill bli backend-utvecklare.");
     }
 }
