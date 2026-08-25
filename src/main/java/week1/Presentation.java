@@ -8,5 +8,6 @@ public class Presentation {
         System.out.println("Namn: Carmelo");
         System.out.println("Stad: Stockholm");
         System.out.println("Jag går utbildningen för att jag vill bli backend-utvecklare.");
+        System.out.println("Fakta: Jag flyttade till Sverige och lärde mig svenska. Nu försöker jag förstå varför alla säger \"lagom\". ");
     }
 }
