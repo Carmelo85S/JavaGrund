@@ -7,6 +7,6 @@ public class Adressetikett {
         System.out.println("Carmelo");
         System.out.println("Vanadisgatan 35");
         System.out.println("411 01 Göteborg");
-
+        System.out.println("Sverige");
     }
 }
