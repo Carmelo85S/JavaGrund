@@ -7,5 +7,6 @@ public class Avdelare {
         //Avdelaren ska vara ungefär lika lång som rubriken.
         System.out.println("VECKA 1 - KOM IGÅNG");
         System.out.println("-------------------");
+        System.out.println("Idag installerade vi allt vi behöver.");
     }
 }
