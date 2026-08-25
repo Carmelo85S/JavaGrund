@@ -7,6 +7,6 @@ public class HalsningNamn {
         // (skriv datumet rakt in texten — vi använder inte riktiga datumtyper än).
         System.out.println("Hej allihopa!");
         System.out.println("Jag heter Carmelo");
-
+        System.out.println("Idag är 25-08-2026");
     }
 }
