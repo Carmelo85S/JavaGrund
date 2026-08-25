@@ -6,5 +6,6 @@ public class Presentation {
         // namn, ort, varför du valt utbildningen,
         // och en kul fakt om dig.
         System.out.println("Namn: Carmelo");
+        System.out.println("Stad: Stockholm");
     }
 }
