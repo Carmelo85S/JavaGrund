@@ -6,6 +6,7 @@ public class Adressetikett {
         // namn, gatuadress, postnummer och ort, sam land.
         System.out.println("Carmelo");
         System.out.println("Vanadisgatan 35");
+        System.out.println("411 01 Göteborg");
 
     }
 }
