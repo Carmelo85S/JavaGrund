@@ -6,6 +6,7 @@ public class Kvitto {
         // en rubrik, tre varor med pris, en avdelarrad, och en summarad.
         // Få priserna att stå i en rak kolumn genom att fylla ut med blanksteg — det är klurigare än det låter.
         System.out.println("KVITTO - Konsult AB");
+        System.out.println("-------------------");
 
     }
 }
