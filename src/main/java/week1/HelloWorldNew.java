@@ -5,5 +5,6 @@ public class HelloWorldNew {
         //Skriv ett program som skriver ut en kort text inramad
         //i en låda byggd av tecknen +, - och |. Lådan ska sluta tätt
         //runt texten och se rak ut.
+        System.out.println("+--------------+");
     }
 }
