@@ -9,5 +9,12 @@ public class VisitKort {
         System.out.println("  Carmelo Salis - Java-utvecklare (under utbildning)");
         System.out.println("  github.com/carmelo85S");
         System.out.println("====================================================");
+
+
+        //Spara uppgifter om en påhittad person i variabler:
+        // namn (en String), ålder (int), längd i meter (double)
+        //och om personen studerar (boolean).
+        // Skriv sedan ut uppgifterna, en per rad.
+
     }
 }
