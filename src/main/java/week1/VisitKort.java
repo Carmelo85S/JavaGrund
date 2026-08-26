@@ -15,6 +15,12 @@ public class VisitKort {
         // namn (en String), ålder (int), längd i meter (double)
         //och om personen studerar (boolean).
         // Skriv sedan ut uppgifterna, en per rad.
+        String name = "Carmelo";
+        int age = 41;
+        double height = 1.75;
+        boolean student = true;
+
+
 
     }
 }
