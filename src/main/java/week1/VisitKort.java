@@ -20,6 +20,13 @@ public class VisitKort {
         double height = 1.75;
         boolean student = true;
 
+        System.out.println("Name: " + name);
+        System.out.println("Age: " + age);
+        System.out.println("Height: " + height);
+        System.out.println("Student: " + student);
+
+
+
 
 
     }
