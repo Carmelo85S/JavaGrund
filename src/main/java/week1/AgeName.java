@@ -10,7 +10,12 @@ public class AgeName {
         //inläst: fundera på vad som låg kvar och väntade efter att talet lästes in.
 
         Scanner input = new Scanner(System.in);
-
-
+        System.out.print("Enter your age: ");
+        int age = input.nextInt();
+        input.nextLine();
+        System.out.print("Enter your name: ");
+        String fullName = input.nextLine();
+        System.out.println(fullName + " you are " + age + " years old");
+        input.close();
     }
 }
