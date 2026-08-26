@@ -12,10 +12,5 @@ public class Kvitto {
         System.out.println("Data Tekniker    600kr");
         System.out.println("----------------------");
         System.out.println("Summa           8600kr");
-
-
-
-
-
     }
 }
