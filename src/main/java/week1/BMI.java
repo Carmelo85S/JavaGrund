@@ -11,6 +11,12 @@ public class BMI {
         //Var också uppmärksam på i vilken ordning du läser in text och tal — det kan ställa till det på samma sätt som i G10.
 
         Scanner sc = new Scanner(System.in);
+        System.out.print("Enter your name: ");
+        String name = sc.nextLine();
+        System.out.print("Insert you weight (kg): ");
+        double weight = sc.nextDouble();
+        sc.nextLine();
+
 
     }
 }
