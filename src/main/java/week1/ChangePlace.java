@@ -10,6 +10,11 @@ public class ChangePlace {
 
         Scanner sc = new Scanner(System.in);
 
+        System.out.print("Insert the first number: ");
+        int firstNum = sc.nextInt();
+        sc.nextLine();
+
+
 
     }
 }
