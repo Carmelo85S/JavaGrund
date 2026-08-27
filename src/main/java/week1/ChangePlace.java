@@ -12,11 +12,9 @@ public class ChangePlace {
 
         System.out.print("Insert the first number: ");
         int firstNum = sc.nextInt();
-        sc.nextLine();
 
         System.out.print("Insert the second number: ");
         int secondNum = sc.nextInt();
-        sc.nextLine();
 
         System.out.println("After input");
         System.out.println("First number = "+ firstNum);
@@ -26,7 +24,7 @@ public class ChangePlace {
         firstNum = secondNum;
         secondNum = temp;
 
-        System.out.println("Switch number");
+        System.out.println("After switch");
         System.out.println("First number = "+ firstNum);
         System.out.println("Second number = "+ secondNum);
 
