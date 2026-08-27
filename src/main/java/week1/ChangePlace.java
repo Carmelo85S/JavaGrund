@@ -14,6 +14,14 @@ public class ChangePlace {
         int firstNum = sc.nextInt();
         sc.nextLine();
 
+        System.out.print("Insert the second number: ");
+        int secondNum = sc.nextInt();
+        sc.nextLine();
+
+        int temp;
+
+
+
 
 
     }
