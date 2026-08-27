@@ -18,11 +18,18 @@ public class ChangePlace {
         int secondNum = sc.nextInt();
         sc.nextLine();
 
-        int temp;
+        System.out.println("After input");
+        System.out.println("First number = "+ firstNum);
+        System.out.println("Second number = "+ secondNum);
 
+        int temp = firstNum;
+        firstNum = secondNum;
+        secondNum = temp;
 
+        System.out.println("Switch number");
+        System.out.println("First number = "+ firstNum);
+        System.out.println("Second number = "+ secondNum);
 
-
-
+        sc.close();
     }
 }
