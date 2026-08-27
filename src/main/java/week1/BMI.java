@@ -1,0 +1,16 @@
+package week1;
+
+import java.util.Scanner;
+
+public class BMI {
+    public static void main(String[] args) {
+        //Fråga efter användarens namn, vikt i kilogram och längd i centimeter.
+        //Räkna ut och skriv ut personens BMI med en decimal i en hälsningsmening.
+        //BMI = vikt i kg delat med (längd i meter)2.
+        //Tänk på att längden anges i centimeter men formeln vill ha meter.
+        //Var också uppmärksam på i vilken ordning du läser in text och tal — det kan ställa till det på samma sätt som i G10.
+
+        Scanner sc = new Scanner(System.in);
+
+    }
+}
