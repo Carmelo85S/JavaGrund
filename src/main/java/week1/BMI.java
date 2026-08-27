@@ -16,7 +16,14 @@ public class BMI {
         System.out.print("Insert you weight (kg): ");
         double weight = sc.nextDouble();
         sc.nextLine();
+        System.out.print("enter your height (cm): ");
+        double height = sc.nextDouble();
+        double heightMeter = height / 100;
 
+        double bmi = weight / Math.pow(heightMeter, 2);
+        System.out.printf("Hello %s! Your BMI is %.1f%n", name, bmi);
+
+        sc.close();
 
     }
 }
