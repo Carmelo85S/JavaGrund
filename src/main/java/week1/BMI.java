@@ -23,6 +23,18 @@ public class BMI {
         double bmi = weight / Math.pow(heightMeter, 2);
         System.out.printf("Hello %s! Your BMI is %.1f%n", name, bmi);
 
+        //wip: man måste skriva om man är undervikt / normalvikt / övervikt
+        String category;
+
+        if (bmi < 18.5) {
+            category = "Undervikt";
+        } else if (bmi >= 25) {
+            category = "Övervikt";
+        } else {
+            category = "Normalvikt";
+        }
+
+        System.out.printf("BMI %.1f (%s)%n", bmi, category);
         sc.close();
 
     }
