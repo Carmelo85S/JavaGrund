@@ -11,9 +11,11 @@ public class MediumValue {
         Scanner scanner = new Scanner(System.in);
 
         int choice;
+        int insert = 0;
         do{
             System.out.print("Insert a number");
             choice = scanner.nextInt();
+            insert++;
         }while(choice!=0);
     }
 }
