@@ -13,6 +13,7 @@ public class GuessNumber {
         do{
             System.out.print("Guess the secret number: ");
             guess = scanner.nextInt();
+
             if(guess < secretNumber){
                 System.out.println("You guess is less");
             } else if(guess > secretNumber){
