@@ -14,12 +14,28 @@ public class VeckoDagSwitchExpression {
 
         int choice = scanner.nextInt();
 
-        String day = switch (choice){
-            case 1, 2, 3, 4, 5 -> "Vardagar";
-            case 6, 7 -> "Helg";
-            default ->"Invalid input";
-        };
+        if (choice < 1 || choice > 7) {
+            System.out.println("Invalid choice");
 
-        System.out.println(day);
+        } else {
+            String dayName = switch (choice) {
+                case 1 -> "Monday";
+                case 2 -> "Tuesday";
+                case 3 -> "Wednesday";
+                case 4 -> "Thursday";
+                case 5 -> "Friday";
+                case 6 -> "Saturday";
+                case 7 -> "Sunday";
+                default -> "Invalid choice";
+            };
+
+            String day = switch (choice) {
+                case 1, 2, 3, 4, 5 -> "Vardagar";
+                case 6, 7 -> "Helg";
+                default -> "Invalid input";
+            };
+
+            System.out.println("Today is " + dayName + " and is " + day);
+        }
     }
 }
