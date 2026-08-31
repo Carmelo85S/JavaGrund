@@ -12,10 +12,12 @@ public class MediumValue {
 
         int choice;
         int insert = 0;
+        int total = 0;
         do{
             System.out.print("Insert a number");
             choice = scanner.nextInt();
             insert++;
+            total = total + insert;
         }while(choice!=0);
     }
 }
