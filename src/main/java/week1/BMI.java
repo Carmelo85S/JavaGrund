@@ -18,7 +18,7 @@ public class BMI {
         sc.nextLine();
         System.out.print("enter your height (cm): ");
         double height = sc.nextDouble();
-        double heightMeter = height / 100;
+        double heightMeter = height / 100.0;
 
         double bmi = weight / Math.pow(heightMeter, 2);
         System.out.printf("Hello %s! Your BMI is %.1f%n", name, bmi);
