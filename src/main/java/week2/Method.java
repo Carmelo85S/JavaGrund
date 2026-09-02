@@ -7,7 +7,7 @@ public class Method {
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
         String name = getName(sc);
-        System.out.println(name);
+        System.out.println("Your name is "+ name);
         sc.close();
     }
 
