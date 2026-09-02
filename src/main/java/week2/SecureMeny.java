@@ -1,6 +1,7 @@
 package week2;
 
 import java.util.InputMismatchException;
+import java.util.Random;
 import java.util.Scanner;
 
 public class SecureMeny {
@@ -36,8 +37,9 @@ public class SecureMeny {
                 scanner.nextLine();
                 if (userInput >= 1 && userInput <= 4) {
                     return userInput;
+                } else {
+                    System.out.println("Please select a number between 1 and 4");
                 }
-
             } catch (InputMismatchException e) {
                 System.out.println("Invalid input");
                 scanner.nextLine();
@@ -71,11 +73,18 @@ public class SecureMeny {
         }
     }
 
+    public static void generateRandom(){
+        Random random = new Random();
+        int randomNumber = random.nextInt(100)+1;
+        System.out.println(randomNumber);
+
+    }
+
     public static void runAction(Scanner scanner, int userInput) {
         switch (userInput) {
             case 1 -> sayHello();
             case 2 -> calculateBmi(scanner);
-            case 3 -> System.out.println("Random");
+            case 3 -> generateRandom();
             case 4 -> System.out.println("Exit");
             default -> System.out.println("Invalid input");
         }
