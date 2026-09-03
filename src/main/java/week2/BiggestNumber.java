@@ -18,16 +18,10 @@ public class BiggestNumber {
     }
 
     public static int compareNum(int a, int b) {
-        if (a > b) {
-            return a;
-        }
-        return b;
+        return Math.max(a, b);
     }
 
     public static double compareNum(double a, double b) {
-        if (a > b) {
-            return a;
-        }
-        return b;
+        return Math.max(a, b);
     }
 }
