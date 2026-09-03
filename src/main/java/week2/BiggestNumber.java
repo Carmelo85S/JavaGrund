@@ -21,7 +21,7 @@ public class BiggestNumber {
         return Math.max(a, b);
     }
 
-    public static double compareNum(double a, double b) {
-        return Math.max(a, b);
+    public static double compareNum(double c, double d) {
+        return Math.max(c, d);
     }
 }
