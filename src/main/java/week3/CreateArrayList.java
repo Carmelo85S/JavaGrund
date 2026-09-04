@@ -13,5 +13,9 @@ public class CreateArrayList {
         for(String name : names){
             System.out.println(name);
         }
+        //Numbers of element
+        System.out.println("Number of element: "+names.size());
+
+
     }
 }
