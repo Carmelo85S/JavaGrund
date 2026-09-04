@@ -15,6 +15,7 @@ public class InputArrayList {
             String name = scanner.nextLine();
             names.add(name);
         }
+        System.out.println("You insert: ");
         for(String listedNames : names){
             System.out.println(listedNames);
         }
