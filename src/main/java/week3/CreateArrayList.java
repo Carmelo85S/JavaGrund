@@ -1,0 +1,17 @@
+package week3;
+
+import java.util.ArrayList;
+
+public class CreateArrayList {
+    public static void main(String[] args) {
+        ArrayList<String> names = new ArrayList<>();
+        names.add("Anna");
+        names.add("Luca");
+        names.add("Marco");
+        names.add("Sarah");
+
+        for(String name : names){
+            System.out.println(name);
+        }
+    }
+}
