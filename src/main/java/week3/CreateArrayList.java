@@ -17,10 +17,21 @@ public class CreateArrayList {
         System.out.println("Number of element: "+names.size());
 
         //Marco -> David
+        System.out.println("------------------");
+
         names.set(2, "David");
         System.out.println("Marco is gone, welcome to: "+ names.get(2));
 
         //print all list
+        System.out.println("------------------");
+
+        for(String name : names){
+            System.out.println(name);
+        }
+
+        //Delete luca and print list
+        System.out.println("------------------");
+        names.remove(1);
         for(String name : names){
             System.out.println(name);
         }
