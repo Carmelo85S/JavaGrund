@@ -20,5 +20,10 @@ public class CreateArrayList {
         names.set(2, "David");
         System.out.println("Marco is gone, welcome to: "+ names.get(2));
 
+        //print all list
+        for(String name : names){
+            System.out.println(name);
+        }
+
     }
 }
