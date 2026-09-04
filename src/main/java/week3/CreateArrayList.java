@@ -16,6 +16,9 @@ public class CreateArrayList {
         //Numbers of element
         System.out.println("Number of element: "+names.size());
 
+        //Marco -> David
+        names.set(2, "David");
+        System.out.println("Marco is gone, welcome to: "+ names.get(2));
 
     }
 }
