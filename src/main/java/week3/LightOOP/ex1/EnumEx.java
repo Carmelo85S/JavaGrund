@@ -1,4 +1,4 @@
-package week3.LightOOP;
+package week3.LightOOP.ex1;
 
 public class EnumEx {
     public static void main(String[] args) {
