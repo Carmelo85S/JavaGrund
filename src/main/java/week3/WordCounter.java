@@ -13,21 +13,18 @@ public class WordCounter {
         String[] myArray = text.toLowerCase().split(" ");
         HashMap<String, Integer> myText = new HashMap<>();
 
-        for(String word : myArray){
-            if(myText.containsKey(word)){
+        for (String word : myArray) {
+            if (myText.containsKey(word)) {
                 myText.put(word, myText.get(word) + 1);
             } else {
                 myText.put(word, 1);
             }
         }
-
         for (Map.Entry<String, Integer> entry : myText.entrySet()) {
             String word = entry.getKey();
             int count = entry.getValue();
 
             System.out.println(word + " -> " + count);
         }
-
-
     }
 }
