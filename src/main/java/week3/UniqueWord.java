@@ -15,7 +15,10 @@ public class UniqueWord {
         text.add("hej");
         text.add("world");
 
-        System.out.println("Size: "+text.size());
+        System.out.println("Size: " + text.size());
+
+        System.out.println("World: " + text);
+
 
     }
 }
