@@ -3,7 +3,7 @@ package week3;
 import java.util.HashMap;
 import java.util.Scanner;
 
-public class PlayerScores {
+public class GetOrDefault {
     public static void main(String[] args) {
         //You have a HashMap<String, Integer> that maps a player's name to a score.
         // Add a few players manually. Ask the user for a name and display that player's score.
