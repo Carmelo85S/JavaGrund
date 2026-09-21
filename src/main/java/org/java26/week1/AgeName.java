@@ -1,0 +1,21 @@
+package org.java26.week1;
+
+import java.util.Scanner;
+
+public class AgeName {
+    public static void main(String[] args) {
+        //Fråga först efter användarens ålder (ett heltal) och sedan efter hela namnet
+        // (för- och efternamn på samma rad). Skriv till sist ut en mening med båda uppgifterna.
+        //Den här ordningen — ett tal direkt följt av en hel textrad — brukar bete sig oväntat. Om namnet inte blir
+        //inläst: fundera på vad som låg kvar och väntade efter att talet lästes in.
+
+        Scanner input = new Scanner(System.in);
+        System.out.print("Enter your age: ");
+        int age = input.nextInt();
+        input.nextLine();
+        System.out.print("Enter your name: ");
+        String fullName = input.nextLine();
+        System.out.println(fullName + " you are " + age + " years old");
+        input.close();
+    }
+}
