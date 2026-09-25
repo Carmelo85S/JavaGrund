@@ -51,6 +51,7 @@ public class Main {
             System.out.println("Fuel type: " + car.fuelType);
             System.out.println("Engine: " + car.engine.model);
             System.out.println("HP: " + car.engine.hp);
+            System.out.println("===========================");
         }
 
 
