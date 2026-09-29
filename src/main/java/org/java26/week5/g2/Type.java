@@ -1,4 +1,4 @@
-package org.java26.week5.vg2;
+package org.java26.week5.g2;
 
 public enum Type {
     ELECTRIC, FIRE

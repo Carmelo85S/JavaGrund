@@ -1,4 +1,4 @@
-package org.java26.week5.vg2;
+package org.java26.week5.g2;
 
 public class Main {
     public static void main(String[] args) {

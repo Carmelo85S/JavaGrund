@@ -1,4 +1,4 @@
-package org.java26.week5.vg1;
+package org.java26.week5.g1;
 
 public class Pokemon {
     private String name;
