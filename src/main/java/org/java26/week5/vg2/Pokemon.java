@@ -4,6 +4,7 @@ public class Pokemon {
     private String name;
     private Type type;
 
+    public Pokemon(){};
     public Pokemon(String name, Type type) {
         setName(name);
         setType(type);

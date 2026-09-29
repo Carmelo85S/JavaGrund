@@ -12,7 +12,9 @@ public class Main {
         //(ett påhittat värde, t.ex. Type.BANAN,
         //går inte att kompilera — felet fångas direkt)
 
-        Pokemon charizard = new Pokemon("Charizard", Type.valueOf("FIRE")); //fel typ kör inte
+        Pokemon charizard = new Pokemon(); //fel typ kör inte
+        charizard.setName("Charizard");
+        charizard.setType(Type.FIRE);
         System.out.println(charizard);
     }
 }
