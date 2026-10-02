@@ -10,6 +10,7 @@ public class Pokemon {
         this.name = name;
         this.maxHp = maxHp;
         this.type = type;
+        this.currentHp = maxHp;
     }
 
     public Type getType() {
@@ -21,18 +22,22 @@ public class Pokemon {
     }
 
     public int getCurrentHp() {
+
         return currentHp;
     }
 
-    public void setCurrentHp(int currentHp) {
-        this.currentHp = currentHp;
-    }
-
     public int getMaxHp() {
+
         return maxHp;
     }
 
-    public void setMaxHp() {
+    public void setMaxHp(int maxHp) {
+        if(maxHp <= 0){
+            maxHp = 0;
+        }
+        if(maxHp > 35){
+            maxHp = 35;
+        }
         this.maxHp = maxHp;
     }
 
@@ -42,5 +47,17 @@ public class Pokemon {
 
     public void setName() {
         this.name = name;
+    }
+
+    public void setCurrentHp(int currentHp) {
+        if (currentHp < 0) {
+            currentHp = 0;
+        }
+
+        if (currentHp > maxHp) {
+            currentHp = maxHp;
+        }
+
+        this.currentHp = currentHp;
     }
 }
