@@ -5,15 +5,15 @@ public class DamageAttack extends Attack {
 
     public DamageAttack(String name, int accuracy, int power) {
         super(name, accuracy);
-        if(power <= 0){
+        if(power <= 0 || power > 100){
             throw new IllegalArgumentException(
-                    "Power > 0"
+                    "Power not in intervall"
             );
         }
         this.power = power;
     }
 
-    public int getPower() {
+    public int useAttack() {
         return power;
     }
 }
