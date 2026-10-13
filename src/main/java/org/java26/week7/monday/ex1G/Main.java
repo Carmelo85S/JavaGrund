@@ -20,11 +20,12 @@ public class Main {
         team.add(krillin);
         team.add(trunks);
 
+
         long hpOverNoll = team.stream()
-                .filter( w -> w.getMaxHp() > 0)
+                .filter( w -> w.getCurrentHp() > 0)
                 .count();
 
-        System.out.println(hpOverNoll);
+        System.out.println("Redö för battle : " + hpOverNoll);
 
     }
 }

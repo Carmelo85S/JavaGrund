@@ -21,8 +21,8 @@ public class Warrior {
         this.maxHp = maxHp;
     }
 
-    public void setCurrentHp(int currentHp) {
-        this.currentHp = currentHp;
+    public int getCurrentHp() {
+        return currentHp;
     }
 
     public Warrior(String name, int maxHp){
