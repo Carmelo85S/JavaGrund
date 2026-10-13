@@ -23,14 +23,26 @@ public class Main {
 
         result.ifPresentOrElse(
                 car -> System.out.println("HP : " + car.getHp()),
-                        () -> System.out.println("Car not found")
+                        () -> System.out.println("Car")
         );
+
+        //När ingen Bil matchar namnet ska programmet varken krascha eller
+        //skriva ett felmeddelande — det ska i stället falla tillbaka på en standard-Bil (t.ex. Maggiolino med 200 HP)
+        //och fortsätta. Skriv ut namnet på den Bil du fick tillbaka, oavsett om den hittades eller är reserven.
+
+        Car notFound = result.orElse(new Car("Maggiolino", 200));
+        System.out.println(notFound.getName());
+        System.out.println("HP: " + notFound.getHp());
+
+
+        //result.orElseThrow(() -> new IllegalArgumentException("unknown"));
     }
 
     public static Optional<Car> findByName(List<Car> dealership, String name) {
         return dealership.stream()
                 .filter(c -> c.getName().equalsIgnoreCase(name))
                 .findFirst();
+
     }
 }
 
